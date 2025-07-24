@@ -99,6 +99,7 @@
 
     git = {
       enable = true;
+      lfs.enable =true;
       userName = "Peter Edley";
       userEmail = "peter@edleyit.com";
       extraConfig = { init.defaultBranch = "main"; };
